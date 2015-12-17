@@ -10,3 +10,8 @@ git diff readme.txt
 
 git log --pretty=oneline
 git reset --hard 123456
+
+git branch
+git branch dev
+git checkout dev
+git merge dev
