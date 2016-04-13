@@ -8,7 +8,7 @@
   <meta name="keywords" content="WEB前端 ， 前端开发简历 ，个人简历，前端开发工程师 ，HTML/CSS/JS" />
   <meta name="generator" content="" />
   <meta name="author" content="Danying Yang" /> 
-  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
   <link href="css/style.css" rel='stylesheet' type='text/css' />	
   <link href="css/style2.css" rel='stylesheet' type='text/css' />  
 
@@ -330,10 +330,13 @@
 		        <div class="container">
 		        	<h3 class="tittle">了解更多</h3>
 			        <div class="row">
-			          <div class="col-md-6">
+			          <div class="col-md-4">
 			           <a href="http://www.cnblogs.com/lilicat"><p>杨丹莹的博客</p></a>
 			          </div>
-			          <div class="col-md-6">
+					   <div class="col-md-4">
+			           <a onclick="fnDownFile()"><p><span class="glyphicon glyphicon-save"></span>&nbsp;&nbsp;&nbsp;&nbsp;  点击下载简历</p></a>
+			          </div>
+			          <div class="col-md-4">
                  <a href="http://git.oschina.net/"><p>杨丹莹的git</p></a>
                 </div>
 			        </div>
@@ -441,6 +444,10 @@
         $(function() {
           $('#port a').Chocolat({overlayColor:'#000',leftImg:'images/leftw.gif',rightImg:'images/rightw.gif',closeImg:'images/closew.gif'});
         });
+		function fnDownFile(){  //下载单个文件
+		var url='images//杨丹莹的个人简历--前端开发工程师.pdf';
+		window.location.href=url;
+       }
     </script>
 </body>
 </html>
