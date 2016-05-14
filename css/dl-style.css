@@ -1,0 +1,43 @@
+.left{
+  float:left;
+}
+
+dl, dt, dd{
+    list-style: none;
+}
+form dl {
+    clear: both;
+    padding: 0;
+    width: 100%;
+    font-size: 14px;
+}
+ form dt {
+    line-height: 34px;
+    padding: 0 0.4em;
+}
+form dt {
+    float: left;
+    margin: 0;
+    padding: 0.8em 0.4em;
+    width: 155px;
+    text-align: right;
+}
+ form dt {
+    line-height: 34px;
+    padding: 0 0.4em;
+}
+ form dt span {
+   font-size: 15px;
+   color: #aaa;
+}
+ form dd {
+    float: left;
+    font-size: 17px;
+    margin-top:5px;
+    margin-left:20px;
+}
+form dl dt span{cursor:default; }
+form .required:before {color: #FF0000;content: "* ";vertical-align: middle;}
+
+
+

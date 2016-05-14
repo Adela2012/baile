@@ -1,0 +1,119 @@
+.left{
+  float:left;
+}
+.testbox{
+	width:100%;
+	background:url(../images/plants/banner.jpg) no-repeat;
+	background-size:100% 900px;
+	float:left; 
+	margin-bottom:20px;
+}
+.loginbox{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	width:300px;
+	border: 1px solid #eee; 
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #fff; 
+	padding:20px 30px;
+	padding-bottom:50px;
+	margin-top:80px;
+	margin-bottom:100px;
+	margin-right:80px;
+	 height:auto; 
+	 float:right; 
+	 position:relative;
+}
+.login-input {
+    border: none;
+    cursor: auto;
+    padding: 10px 6px;
+    width: 83%;
+    color: #999;
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+input[name="username"],input[name="password"]{
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	outline: none;
+    border: none;
+    float:left;
+}
+ dd.login-dd-border {
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    width: 95%;
+    margin-bottom: 20px;
+    line-height: 20px;
+    padding: 0 0 0 10px;
+    height:36px;
+}
+.login-icon-user, .login-icon-password {
+    width: 16px;
+    height: 22px;
+    margin: 9px 5px;
+    
+}
+.login-icon-user, .login-icon-password {
+    background: url(../images/plants/login-icon.png) no-repeat;
+    display: inline-block;
+}
+.login-icon-user {
+    background-position: -9px -5px;
+}
+.login-icon-password {
+    background-position: -9px -29px;
+}
+i {
+    font-style: normal;
+}
+input[class="sbtn btn"]{
+
+	display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+input[value="登录"]{
+ color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c
+}
+
+
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+

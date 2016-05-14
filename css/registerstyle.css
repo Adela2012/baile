@@ -1,0 +1,198 @@
+.left{
+  float:left;
+}
+.regbox{
+	width:100%;
+	background:#eee;
+	float:left; 
+	margin-bottom:20px;
+}
+.picbox{
+	background:url(images/plants/brid.jpg) no-repeat;
+	float:left; 
+	margin:20px auto auto 20px;
+}
+.registerbox{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	width:500px;
+	border: 1px solid #eee; 
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #fff; 
+	padding:20px 30px;
+	padding-bottom:50px;
+	margin-top:80px;
+	margin-bottom:100px;
+	margin-right:80px;
+	 height:auto; 
+	 float:right; 
+	 position:relative;
+}
+dl, dt, dd{
+    list-style: none;
+}
+form dl {
+    clear: both;
+    padding: 0;
+    width: 100%;
+    font-size: 14px;
+}
+.registerbox form dt {
+    line-height: 34px;
+    padding: 0 0.4em;
+}
+form dt {
+    float: left;
+    margin: 0;
+    padding: 0.8em 0.4em;
+    width: 155px;
+    text-align: right;
+}
+.register-box .form dt {
+    line-height: 34px;
+    padding: 0 0.4em;
+}
+
+form dl dt span{cursor:default; }
+form .required:before {color: #FF0000;content: "* ";vertical-align: middle;}
+.register-input {
+    border: none;
+    cursor: auto;
+    padding: 10px 6px;
+    width: 95%;
+    color: #999;
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.code-input {
+    border: none;
+    cursor: auto;
+    font-size: 20px;
+}
+input[name="username"],input[name="password"]{
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	outline: none;
+    border: none;
+    float:left;
+}
+ dd.register-dd-border {
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    padding: 0 0 0 10px;
+    height:36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.login-icon-user, .login-icon-password {
+    width: 16px;
+    height: 22px;
+    margin: 9px 5px;
+    
+}
+.login-icon-user, .login-icon-password {
+    background: url(../images/plants/login-icon.png) no-repeat;
+    display: inline-block;
+}
+.login-icon-user {
+    background-position: -9px -5px;
+}
+.login-icon-password {
+    background-position: -9px -29px;
+}
+i {
+    font-style: normal;
+}
+input[class="sbtn btn"],input[class="sbtn btn btn-warning"]{
+
+	display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+input[value="登录"]{
+ color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c
+}
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #fff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.btn-warning.disabled,
+.btn-warning[disabled],
+fieldset[disabled] .btn-warning,
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warning:active,
+.btn-warning.disabled.active,
+.btn-warning[disabled].active,
+fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+

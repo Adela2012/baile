@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+	
+	<!-- 1. 数据库连接配置 -->	
+	
+<!--指定连接数据库用的驱动 -->
+<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+
+<!--  指定连接数据库的路径-->
+<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/baile?characterEncoding=utf-8</property>
+
+<!--  指定连接数据库的用户名和密码。-->
+<property name="hibernate.connection.username">root</property>
+
+<property name="hibernate.connection.password">root</property>
+
+
+		
+		 <!-- Echo all executed SQL to stdout -->
+	  
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+	
+	
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		
+		
+		  <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+		 
+		 <!-- 数据库没有改表的情况下可以自动生成 -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		
+		
+       <!-- 3. 加载所有映射 -->
+       
+		<mapping class="com.model.User"/>
+		
+		<mapping class="com.model.Fenlei"/>
+		
+		<mapping class="com.model.Gys"/>
+		
+		<mapping class="com.model.Product"/>
+		
+		<mapping class="com.model.Shouhuo"/>
+		
+		<mapping class="com.model.Gouwuche"/>
+		
+		<mapping class="com.model.Dingdan"/>
+		
+		<mapping class="com.model.Xiaoshou"/>
+		
+		<mapping class="com.model.Shoucang"/>
+		
+		<mapping class="com.model.Liuyan"/>
+		
+		<mapping class="com.model.Dingdanitem"/>
+		
+		<mapping class="com.model.Pic"/>
+		
+		<mapping class="com.model.News"/>
+	
+		<mapping class="com.model.Zulin"/>
+		
+		<mapping class="com.model.Pinglun"/>
+		
+		<mapping class="com.model.Guige"/>
+		
+	</session-factory>
+</hibernate-configuration>
